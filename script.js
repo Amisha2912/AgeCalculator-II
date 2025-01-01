@@ -1,7 +1,7 @@
 function calculateAge() {
     const dobInput = document.getElementById('dob').value;
     const dob = new Date(dobInput); // Get the selected date
-    const today = new Date(); // Get the current date
+    const today = new Date(); // Get the current date  
     // Check if a valid date is selected
     if (dobInput === '') {
         alert('Please select your date of birth');
